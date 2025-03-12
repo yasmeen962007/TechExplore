@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - CinemachineTarget
-  - Printer
+  - Ignite
   layers:
   - Default
   - TransparentFX
@@ -15,10 +14,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Grabbable
+  - Hands
+  - Teleporter
+  - NoHandCollide
   - 
   - 
   - 
