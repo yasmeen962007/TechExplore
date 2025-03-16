@@ -5,14 +5,20 @@ public class animayion : MonoBehaviour
 {
     public Transform player; // مرجع اللاعب
     private NavMeshAgent agent; // التحكم في الحركة
-    private Animator animator; // التحكم في الرسوم المتحركة
+    private Animator anim; // التحكم في الرسوم المتحركة
     public float walkingSpeed = 3.5f; // سرعة الروبوت أثناء المشي
     public float runningSpeed = 6f;   // سرعة الروبوت أثناء الجري
+    public float Speed;
+    public float allowPlayerRotation = 0.1f;
+    [Range(0, 1f)]
+    public float StartAnimTime = 0.3f;
+    [Range(0, 1f)]
+    public float StopAnimTime = 0.15f;
     void Start()
     {
         // الوصول إلى NavMeshAgent و Animator
         agent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -37,7 +43,16 @@ public class animayion : MonoBehaviour
 
             // تحديث متغير السرعة في Animator
             float speed = agent.velocity.magnitude; // حساب السرعة الحالية
-            animator.SetFloat("Speed", speed); // تحديث المتغير "Speed"
+            //animator.SetFloat("Speed", speed); // تحديث المتغير "Speed"
+            if (speed > allowPlayerRotation)
+            {
+                anim.SetFloat("Blend", speed, StartAnimTime, Time.deltaTime);
+               // PlayerMoveAndRotation();
+            }
+            else if (speed < allowPlayerRotation)
+            {
+                anim.SetFloat("Blend", speed, StopAnimTime, Time.deltaTime);
+            }
         }
     }
 }
