@@ -2145,7 +2145,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1533873904}
   selectedCommands: []
   variables:
   - {fileID: 1533873907}
@@ -2746,7 +2747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1533873905}
+  selectedFlowchart: {fileID: 1704194162}
 --- !u!4 &1573484739
 Transform:
   m_ObjectHideFlags: 1
@@ -2778,6 +2779,7 @@ GameObject:
   - component: {fileID: 1704194166}
   - component: {fileID: 1704194165}
   - component: {fileID: 1704194164}
+  - component: {fileID: 1704194169}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2812,6 +2814,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1704194168}
   - {fileID: 1704194167}
+  - {fileID: 1704194169}
   - {fileID: 1704194166}
   - {fileID: 1704194165}
   suppressAllAutoSelections: 0
@@ -2841,7 +2844,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1704194161}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1704194169}
   variables:
   - {fileID: 1704194164}
   description: 
@@ -3321,6 +3325,33 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1704194169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704194159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 1
+  storyText: what is printer
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1764214107
 GameObject:
   m_ObjectHideFlags: 0
