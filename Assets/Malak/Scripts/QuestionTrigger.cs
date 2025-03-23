@@ -1,14 +1,16 @@
-﻿using UnityEngine;
+﻿using Fungus;
+using UnityEngine;
 
 public class QuestionTrigger : MonoBehaviour
 {
-    public Fungus.Flowchart flowchart;
+   public Flowchart flowchart;
+    public string name;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            flowchart.ExecuteBlock("Start"); // نفذ Block باسم "Start"
+            flowchart.ExecuteBlock(name); // نفذ Block باسم "Start"
         }
     }
 }
