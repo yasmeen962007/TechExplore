@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Fungus;
 
-public class Keyboard : MonoBehaviour
+public class keyboard : MonoBehaviour
 {
     public Flowchart flowchart;  // متغير لحفظ الفلو شارت
 
