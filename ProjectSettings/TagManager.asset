@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ignite
+  - CinemachineTarget
+  - Printer
+  - PlayerEyes
+  - monitor
+  - Projector
+  - PC
+  - mouse
+  - Keyboard
   layers:
   - Default
   - TransparentFX
