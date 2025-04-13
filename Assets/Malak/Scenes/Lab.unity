@@ -7639,8 +7639,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 1
-  storyText: 'Robot: It holds important internal components like the processor and
-    memory. It keeps them safe and organized so your computer can function properly.
+  storyText: ' It holds important internal components like the processor and memory.
+    It keeps them safe and organized so your computer can function properly.
 
 '
   description: 
@@ -7669,7 +7669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 1
-  storyText: "Student: What\u2019s inside the computer case?\n"
+  storyText: " What\u2019s inside the computer case?\n"
   description: 
   character: {fileID: 1089462746}
   portrait: {fileID: 21300000, guid: da0fbc0540cb6924090aa2d0dbd2484e, type: 3}
@@ -7678,8 +7678,8 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 0
+  waitForClick: 1
+  stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &234558650
@@ -7696,7 +7696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 1
-  storyText: "Robot: Amazing! You\u2019ve found the computer case.\n"
+  storyText: "Amazing! You\u2019ve found the computer case.\n"
   description: 
   character: {fileID: 638249824}
   portrait: {fileID: 21300000, guid: e05fdd0619188c143ac21480d27d5e49, type: 3}
@@ -12584,7 +12584,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 336430810}
   selectedCommands:
-  - {fileID: 336430813}
+  - {fileID: 336430816}
   variables:
   - {fileID: 336430809}
   description: 
@@ -12626,8 +12626,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 1
-  storyText: 'Robot: A printer transfers text and images from your computer onto
-    paper. You can use it to print your homework, pictures, or important documents!'
+  storyText: ' A printer transfers text and images from your computer onto paper.
+    You can use it to print your homework, pictures, or important documents!'
   description: 
   character: {fileID: 638249824}
   portrait: {fileID: 21300000, guid: e05fdd0619188c143ac21480d27d5e49, type: 3}
@@ -12668,7 +12668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 1
-  storyText: 'Student: How does a printer work?'
+  storyText: ' How does a printer work?'
   description: 
   character: {fileID: 1089462746}
   portrait: {fileID: 21300000, guid: da0fbc0540cb6924090aa2d0dbd2484e, type: 3}
@@ -12677,8 +12677,8 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 0
+  waitForClick: 1
+  stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &336430816
@@ -12695,7 +12695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 1
-  storyText: 'Robot: Oh, look! You found the printer.
+  storyText: ' Oh, look! You found the printer.
 
 '
   description: 
@@ -13164,9 +13164,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 1
-  storyText: "Robot: The mouse allows you to control the cursor on the screen, click
-    on icons, open programs, and navigate easily. It\u2019s like a remote control
-    for your computer!\n"
+  storyText: " The mouse allows you to control the cursor on the screen, click on
+    icons, open programs, and navigate easily. It\u2019s like a remote control for
+    your computer!\n"
   description: 
   character: {fileID: 638249824}
   portrait: {fileID: 21300000, guid: e05fdd0619188c143ac21480d27d5e49, type: 3}
@@ -13193,7 +13193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 1
-  storyText: 'Student: How does a mouse help me?
+  storyText: ' How does a mouse help me?
 
 '
   description: 
@@ -13204,8 +13204,8 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 0
+  waitForClick: 1
+  stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &341659230
@@ -13222,7 +13222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 1
-  storyText: 'Robot: Nice! You found the mouse.
+  storyText: ' Nice! You found the mouse.
 
 '
   description: 
@@ -15756,7 +15756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 1
-  storyText: "Robot: The monitor displays everything happening on your computer\u2014text,
+  storyText: " The monitor displays everything happening on your computer\u2014text,
     images, videos, and games. It\u2019s your window into the digital world!\n"
   description: 
   character: {fileID: 638249824}
@@ -15784,7 +15784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 1
-  storyText: 'Student: What does a monitor do?
+  storyText: ' What does a monitor do?
 
 '
   description: 
@@ -15795,8 +15795,8 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 0
+  waitForClick: 1
+  stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &413207732
@@ -15813,7 +15813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 1
-  storyText: "Robot: Look at that! You\u2019ve located the monitor.\n"
+  storyText: " Look at that! You\u2019ve located the monitor.\n"
   description: 
   character: {fileID: 638249824}
   portrait: {fileID: 21300000, guid: e05fdd0619188c143ac21480d27d5e49, type: 3}
@@ -16295,7 +16295,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 413207736}
   selectedCommands:
-  - {fileID: 413207730}
+  - {fileID: 413207732}
   variables:
   - {fileID: 413207735}
   description: 
@@ -16797,8 +16797,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 1
-  storyText: 'Robot: Speakers produce sound from your computer. They allow you to
-    hear music, videos, and alerts, making your experience more interactive and fun!
+  storyText: 'Speakers produce sound from your computer. They allow you to hear music,
+    videos, and alerts, making your experience more interactive and fun!
 
 
 '
@@ -16828,7 +16828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 1
-  storyText: 'Student: What do speakers do?
+  storyText: ' What do speakers do?
 
 '
   description: 
@@ -16839,8 +16839,8 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 0
+  waitForClick: 1
+  stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &435636936
@@ -16857,7 +16857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 1
-  storyText: "Robot: Great! You\u2019ve found the speakers.\n"
+  storyText: " Great! You\u2019ve found the speakers.\n"
   description: 
   character: {fileID: 638249824}
   portrait: {fileID: 21300000, guid: e05fdd0619188c143ac21480d27d5e49, type: 3}
@@ -17336,8 +17336,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 435636940}
+  selectedCommands:
+  - {fileID: 435636934}
   variables:
   - {fileID: 435636939}
   description: 
@@ -20771,8 +20773,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 1
-  storyText: "Robot: Hello! In this stage, I\u2019ll be your assistant, helping you
-    in learning about different PC components and their uses. Let\u2019s get started!\n"
+  storyText: "Hello! In this stage, I\u2019ll be your assistant, helping you in learning
+    about different PC components and their uses. Let\u2019s get started!\n"
   description: 
   character: {fileID: 638249824}
   portrait: {fileID: 21300000, guid: e05fdd0619188c143ac21480d27d5e49, type: 3}
@@ -33372,9 +33374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 1
-  storyText: "Robot: A projector displays images or videos on a large screen, just
-    like in a cinema. It\u2019s useful for school lessons, presentations, and even
-    watching movies at home!\n"
+  storyText: " A projector displays images or videos on a large screen, just like
+    in a cinema. It\u2019s useful for school lessons, presentations, and even watching
+    movies at home!\n"
   description: 
   character: {fileID: 638249824}
   portrait: {fileID: 21300000, guid: e05fdd0619188c143ac21480d27d5e49, type: 3}
@@ -33401,7 +33403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 1
-  storyText: 'Student: What is a projector used for?
+  storyText: ' What is a projector used for?
 
 '
   description: 
@@ -33412,8 +33414,8 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 0
+  waitForClick: 1
+  stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &896948968
@@ -33430,7 +33432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 1
-  storyText: 'Robot: Great! You discovered the projector.
+  storyText: ' Great! You discovered the projector.
 
 '
   description: 
@@ -48494,8 +48496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 1
-  storyText: "Robot: A keyboard helps you type letters and numbers into the computer.
-    It\u2019s essential for writing, searching, and interacting with programs.\n"
+  storyText: " A keyboard helps you type letters and numbers into the computer. It\u2019s
+    essential for writing, searching, and interacting with programs.\n"
   description: 
   character: {fileID: 638249824}
   portrait: {fileID: 21300000, guid: e05fdd0619188c143ac21480d27d5e49, type: 3}
@@ -48522,7 +48524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 1
-  storyText: 'Student: Why do we use a keyboard?
+  storyText: 'Why do we use a keyboard?
 
 '
   description: 
@@ -48533,8 +48535,8 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 0
-  stopVoiceover: 0
+  waitForClick: 1
+  stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1394068506
@@ -48551,7 +48553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 1
-  storyText: "Robot: Well done! Here\u2019s the keyboard.\n"
+  storyText: " Well done! Here\u2019s the keyboard.\n"
   description: 
   character: {fileID: 638249824}
   portrait: {fileID: 21300000, guid: e05fdd0619188c143ac21480d27d5e49, type: 3}
