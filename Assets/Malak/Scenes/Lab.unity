@@ -7583,7 +7583,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 234558644}
   selectedCommands:
-  - {fileID: 234558648}
+  - {fileID: 234558649}
   variables:
   - {fileID: 234558643}
   description: 
@@ -7673,7 +7673,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1089462746}
   portrait: {fileID: 21300000, guid: da0fbc0540cb6924090aa2d0dbd2484e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 15d024884c0bb914ea75f5ebd21fecf6, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -12584,7 +12584,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 336430810}
   selectedCommands:
-  - {fileID: 336430816}
+  - {fileID: 336430815}
   variables:
   - {fileID: 336430809}
   description: 
@@ -12672,7 +12672,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1089462746}
   portrait: {fileID: 21300000, guid: da0fbc0540cb6924090aa2d0dbd2484e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c12a06cbfea47cb46b4f6a0660d1851d, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -13199,7 +13199,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1089462746}
   portrait: {fileID: 21300000, guid: da0fbc0540cb6924090aa2d0dbd2484e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 1356afe9d8a9dd64f89accdab478fe2b, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -13706,7 +13706,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 341659234}
   selectedCommands:
-  - {fileID: 341659228}
+  - {fileID: 341659229}
   variables:
   - {fileID: 341659233}
   description: 
@@ -15790,7 +15790,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1089462746}
   portrait: {fileID: 21300000, guid: da0fbc0540cb6924090aa2d0dbd2484e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 94982574d3428734a825964227901aa6, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -15817,7 +15817,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 638249824}
   portrait: {fileID: 21300000, guid: e05fdd0619188c143ac21480d27d5e49, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: bbaa362c61ff2a2458df9823a3614ba8, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -16834,7 +16834,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1089462746}
   portrait: {fileID: 21300000, guid: da0fbc0540cb6924090aa2d0dbd2484e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c261d7229b0cde94ab6d600ad479d18b, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -17339,7 +17339,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 435636940}
   selectedCommands:
-  - {fileID: 435636934}
+  - {fileID: 435636935}
   variables:
   - {fileID: 435636939}
   description: 
@@ -28644,7 +28644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 435636941}
+  selectedFlowchart: {fileID: 413207737}
 --- !u!4 &759751575
 Transform:
   m_ObjectHideFlags: 1
@@ -33409,7 +33409,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1089462746}
   portrait: {fileID: 21300000, guid: da0fbc0540cb6924090aa2d0dbd2484e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 1d19aa30c6e8f0943b03259408a29017, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -33916,7 +33916,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 896948972}
   selectedCommands:
-  - {fileID: 896948966}
+  - {fileID: 896948967}
   variables:
   - {fileID: 896948971}
   description: 
@@ -48530,7 +48530,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1089462746}
   portrait: {fileID: 21300000, guid: da0fbc0540cb6924090aa2d0dbd2484e, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 87e2865eb1ace1443b75b6de71c60427, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -49035,7 +49035,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1394068510}
   selectedCommands:
-  - {fileID: 1394068504}
+  - {fileID: 1394068505}
   variables:
   - {fileID: 1394068509}
   description: 
