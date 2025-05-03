@@ -6,19 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Malak/Scenes/startvideo.unity
+    path: Assets/Hazem/Scenes/startvideo.unity
     guid: 248272ba3e223c24cb583a577a58895c
   - enabled: 1
-    path: Assets/Malak/Scenes/Room.unity
+    path: Assets/Hazem/Scenes/Room.unity
     guid: 7a9b4f7c55deb204eb1917989b6ae9c8
   - enabled: 0
     path: Assets/VR Beginner/Scenes/Final/EscapeRoom.unity
     guid: 0f290611f0f8be4419d06b71aba4e36a
   - enabled: 0
-    path: Assets/Malak/Scenes/simblecity.unity
+    path: Assets/Hazem/Scenes/simblecity.unity
     guid: 4a9aa34b03ea629419efcf1fdd47291a
   - enabled: 1
-    path: Assets/Malak/Scenes/Lab.unity
+    path: Assets/Hazem/Scenes/Lab.unity
     guid: 732c821dbcf066148aa69bba2f0e8907
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 398d945149746a94899cafbfeddf8c9f,
