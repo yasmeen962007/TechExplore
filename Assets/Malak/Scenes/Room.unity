@@ -575,7 +575,7 @@ GameObject:
   - component: {fileID: 90302907}
   - component: {fileID: 90302906}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: DialogueTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
