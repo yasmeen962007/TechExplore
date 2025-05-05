@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Door3a
+  m_Name: Dooor3a
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -19,8 +19,8 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.75
-        value: {x: -3.6486, y: 0, z: -3.18}
+        time: 0
+        value: {x: 73.42, y: -0.76, z: 8.530001}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -28,8 +28,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 2.3
-        value: {x: -7.04, y: 0, z: -3.14}
+        time: 1.25
+        value: {x: 69.82, y: -0.76, z: 8.530001}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -65,7 +65,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 2.3
+    m_StopTime: 1.25
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -86,8 +86,8 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.75
-        value: -3.6486
+        time: 0
+        value: 73.42
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -95,8 +95,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 2.3
-        value: -7.04
+        time: 1.25
+        value: 69.82
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -116,8 +116,8 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.75
-        value: 0
+        time: 0
+        value: -0.76
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -125,8 +125,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 2.3
-        value: 0
+        time: 1.25
+        value: -0.76
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -146,8 +146,8 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.75
-        value: -3.18
+        time: 0
+        value: 8.530001
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -155,8 +155,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 2.3
-        value: -3.14
+        time: 1.25
+        value: 8.530001
         inSlope: 0
         outSlope: 0
         tangentMode: 136
