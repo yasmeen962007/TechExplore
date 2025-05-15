@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Yasmeen/Scenes/main menu.unity
-    guid: 47dd27148050a28429a0057ba5732322
+    path: Assets/Yasmeen/Yasmeen New/ui.unity
+    guid: 019145d27dfb3da4b8ecfebff278122e
   - enabled: 1
-    path: Assets/Yasmeen/Scenes/simblecity.unity
-    guid: b964850e08b06bf448ee165da497d9da
+    path: Assets/Yasmeen/Yasmeen New/startvideo ui.unity
+    guid: 4ec41a76ef9e58949a0760e5fded3c20
   - enabled: 1
     path: Assets/Yasmeen/Scenes/Room.unity
     guid: efaefef008a72664eabb7217bd090359
+  - enabled: 1
+    path: Assets/Yasmeen/Yasmeen New/Lab ui.unity
+    guid: afe7602af3173814bb54ee7ba7c2fced
+  - enabled: 0
+    path: Assets/Yasmeen/Scenes/simblecity.unity
+    guid: b964850e08b06bf448ee165da497d9da
   - enabled: 0
     path: Assets/Malak/Scenes/startvideo.unity
     guid: 248272ba3e223c24cb583a577a58895c

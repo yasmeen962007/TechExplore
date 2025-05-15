@@ -9,10 +9,14 @@ public class ui : MonoBehaviour
     public void StartGame()
 
     {
-        SceneManager.LoadScene("simblecity");
+        SceneManager.LoadScene("startvideo ui");
 
     }
 
     // Update is called once per frame
-    
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
