@@ -19467,7 +19467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 7.48394
+    x: 8.389946
     y: 54.16398
     width: 115.23214
     height: 40
@@ -22222,19 +22222,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 565947213}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &463350452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463350451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4d1058dc7e8a2f4fa1b054f43844561, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: Room
 --- !u!65 &463350453
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22256,6 +22243,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.8402002, y: 2.841, z: 2.8402002}
   m_Center: {x: 0, y: 0.00050002337, z: 0}
+--- !u!114 &463350454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463350451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e287019ddaf2f4ba3355eaca165e91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  labManager: {fileID: 2081276422}
 --- !u!4 &475646313 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 438122, guid: 39278bd2764254e72a9fe96217e4395c,
@@ -24251,7 +24251,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3992058561654064293, guid: 72f7ef3af9a901e40a565f341da2b2a8,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 463350452}
+      addedObject: {fileID: 463350454}
   m_SourcePrefab: {fileID: 100100000, guid: 72f7ef3af9a901e40a565f341da2b2a8, type: 3}
 --- !u!1001 &569117203
 PrefabInstance:
@@ -25149,8 +25149,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 580602866}
-  selectedCommands:
-  - {fileID: 580602864}
+  selectedCommands: []
   variables:
   - {fileID: 580602869}
   description: 
@@ -33631,7 +33630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 964614439}
+  selectedFlowchart: {fileID: 413207737}
 --- !u!4 &759751575
 Transform:
   m_ObjectHideFlags: 1
@@ -37816,9 +37815,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9bb8c7f1ffa0b45870c007ff89dff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  computerObject: {fileID: 877704661}
+  object3D: {fileID: 877704661}
   fadedImage: {fileID: 1400708969}
-  normalImage: {fileID: 1344987838}
+  collectedImage: {fileID: 1344987838}
+  labManager: {fileID: 2081276422}
 --- !u!1001 &878416385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41598,10 +41598,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 964614438}
-  selectedCommands:
-  - {fileID: 964614437}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 964614428}
   - {fileID: 964614441}
@@ -47562,9 +47560,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9bb8c7f1ffa0b45870c007ff89dff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  computerObject: {fileID: 1113041635}
+  object3D: {fileID: 1113041635}
   fadedImage: {fileID: 1539489836}
-  normalImage: {fileID: 1021446399}
+  collectedImage: {fileID: 1021446399}
+  labManager: {fileID: 2081276422}
 --- !u!4 &1114932465 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: e2bb8688208ec4855995dc3671b6c8a8,
@@ -51506,9 +51505,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9bb8c7f1ffa0b45870c007ff89dff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  computerObject: {fileID: 1191498175}
+  object3D: {fileID: 1191498175}
   fadedImage: {fileID: 1922708282}
-  normalImage: {fileID: 139197638}
+  collectedImage: {fileID: 139197638}
+  labManager: {fileID: 2081276422}
 --- !u!1 &1195642339
 GameObject:
   m_ObjectHideFlags: 0
@@ -51928,9 +51928,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9bb8c7f1ffa0b45870c007ff89dff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  computerObject: {fileID: 1218024246}
+  object3D: {fileID: 1218024246}
   fadedImage: {fileID: 990369596}
-  normalImage: {fileID: 462665317}
+  collectedImage: {fileID: 462665317}
+  labManager: {fileID: 2081276422}
 --- !u!1001 &1221177510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73186,9 +73187,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9bb8c7f1ffa0b45870c007ff89dff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  computerObject: {fileID: 1745696651}
+  object3D: {fileID: 1745696651}
   fadedImage: {fileID: 1560311117}
-  normalImage: {fileID: 167621919}
+  collectedImage: {fileID: 167621919}
+  labManager: {fileID: 2081276422}
 --- !u!1001 &1748890701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76274,9 +76276,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9bb8c7f1ffa0b45870c007ff89dff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  computerObject: {fileID: 1820630781}
+  object3D: {fileID: 1820630781}
   fadedImage: {fileID: 968059792}
-  normalImage: {fileID: 500158966}
+  collectedImage: {fileID: 500158966}
+  labManager: {fileID: 2081276422}
 --- !u!4 &1822699301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 6303ec70701ed4d31806e2ce8a7af08c,
@@ -87056,9 +87059,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9bb8c7f1ffa0b45870c007ff89dff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  computerObject: {fileID: 2069842200}
+  object3D: {fileID: 2069842200}
   fadedImage: {fileID: 1642107774}
-  normalImage: {fileID: 1940341327}
+  collectedImage: {fileID: 1940341327}
+  labManager: {fileID: 2081276422}
 --- !u!4 &2072104350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: ac93356612ce24c718977a61ed7246de,
@@ -87308,6 +87312,53 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &2081276421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081276423}
+  - component: {fileID: 2081276422}
+  m_Layer: 0
+  m_Name: LabManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2081276422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081276421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757cb93fa7c55de4d957c1f560d94e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeLimit: 60
+  totalItems: 7
+  magicPortal: {fileID: 463350451}
+--- !u!4 &2081276423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081276421}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.366746, y: 1.2117267, z: -0.12673384}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2084179613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91074,7 +91125,7 @@ PrefabInstance:
     - target: {fileID: 6285632235678944248, guid: f420c8eb7b6fc15458c9b3573acbe01b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.86
+      value: -9.42
       objectReference: {fileID: 0}
     - target: {fileID: 6285632235678944248, guid: f420c8eb7b6fc15458c9b3573acbe01b,
         type: 3}
@@ -91731,3 +91782,4 @@ SceneRoots:
   - {fileID: 638249825}
   - {fileID: 1089462747}
   - {fileID: 565947213}
+  - {fileID: 2081276423}
