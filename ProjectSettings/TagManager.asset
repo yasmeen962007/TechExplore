@@ -13,6 +13,7 @@ TagManager:
   - PC
   - mouse
   - Keyboard
+  - MagicGate
   layers:
   - Default
   - TransparentFX
