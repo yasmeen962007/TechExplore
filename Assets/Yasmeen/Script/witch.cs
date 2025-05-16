@@ -17,7 +17,7 @@ public class witch : MonoBehaviour
     {
         if (other.CompareTag("Player"))  // التأكد أن اللاعب دخل منطقة الساحرة
         {
-            flowchart.ExecuteBlock("StartSay");  // تشغيل بلوك الحوار
+            flowchart.ExecuteBlock("StartDialog");  // تشغيل بلوك الحوار
         }
     }
 }

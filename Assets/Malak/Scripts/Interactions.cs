@@ -27,4 +27,9 @@ public class Interactions : MonoBehaviour
             labManager.CollectItem();
         }
     }
+    public void ShowCollectedImage()
+    {
+        collectedImage.gameObject.SetActive(true);
+    }
+
 }
