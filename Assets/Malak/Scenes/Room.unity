@@ -3657,11 +3657,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: No, try again. This is not the keyboard.
+  storyText: No, try again. I don't think that's it
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c74ad2067b3e5784da8400f943950542, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3739,11 +3739,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Bravo! Correct answer
+  storyText: Bravo! I understand
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 09e43dd22dd40414a8af01edf5e35124, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3823,7 +3823,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 16e82c012b5213f45a8471a3c3b107c7, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3887,7 +3887,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 381980088}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 381980086}
   variables: []
   description: 
   stepPause: 0
@@ -4621,11 +4622,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: No, try again. This is not the keyboard.
+  storyText: No, try again. I don't think that's it
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c74ad2067b3e5784da8400f943950542, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -4648,7 +4649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 175.60002
+    x: 176.40002
     y: 155.4
     width: 78
     height: 40
@@ -4704,11 +4705,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Bravo! Correct answer
+  storyText: Bravo! I understand
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 09e43dd22dd40414a8af01edf5e35124, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -4731,7 +4732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 235.6
+    x: 237.19998
     y: 93
     width: 72.4
     height: 40
@@ -4787,7 +4788,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 56a987c206e3ba945838b696398aff0a, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -4810,8 +4811,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 35.000023
-    y: 73.99999
+    x: 37.400024
+    y: 74.79999
     width: 102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4850,7 +4851,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 416890867}
+  - {fileID: 416890860}
   selectedCommands: []
   variables: []
   description: 
@@ -5030,6 +5031,103 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 432748307}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &435409173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 435409176}
+  - component: {fileID: 435409175}
+  - component: {fileID: 435409174}
+  m_Layer: 0
+  m_Name: Flowchart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &435409174
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435409173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 67
+    y: 70.799995
+    width: 112.4
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 0
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &435409175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435409173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  scrollPos: {x: 0, y: 0}
+  variablesScrollPos: {x: 0, y: 0}
+  variablesExpanded: 1
+  blockViewHeight: 400
+  zoom: 1
+  scrollViewRect:
+    serializedVersion: 2
+    x: -343
+    y: -340
+    width: 1114
+    height: 859
+  selectedBlocks:
+  - {fileID: 435409174}
+  selectedCommands: []
+  variables: []
+  description: 
+  stepPause: 0
+  colorCommands: 1
+  hideComponents: 1
+  saveSelection: 1
+  localizationId: 
+  showLineNumbers: 0
+  hideCommands: []
+  luaEnvironment: {fileID: 0}
+  luaBindingName: flowchart
+--- !u!4 &435409176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435409173}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &442719387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 0a8b150a8c98bd243960dcfc107d25bf,
@@ -5101,7 +5199,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 14dff461ab2d4894393ed59f23e3c850, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -5124,7 +5222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 31.800026
+    x: 33.400024
     y: 76.399994
     width: 94
     height: 40
@@ -5212,11 +5310,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: No, try again. This is not the keyboard.
+  storyText: No, try again. I don't think that's it
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c74ad2067b3e5784da8400f943950542, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -5294,11 +5392,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Bravo! Correct answer
+  storyText: Bravo! I understand
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 09e43dd22dd40414a8af01edf5e35124, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -5321,8 +5419,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 235.6
-    y: 93
+    x: 238.79999
+    y: 93.799995
     width: 72.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9568,11 +9666,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: No, try again. This is not the keyboard.
+  storyText: No, try again. I don't think that's it
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c74ad2067b3e5784da8400f943950542, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -9595,8 +9693,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 175.60002
-    y: 155.4
+    x: 178.15323
+    y: 154.54892
     width: 77.23404
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9648,11 +9746,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Bravo! Correct answer
+  storyText: Bravo! I understand
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 09e43dd22dd40414a8af01edf5e35124, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -9733,7 +9831,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4631ab730df574e4a86a51e86e53cbc3, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -9756,8 +9854,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 34.200027
-    y: 68.4
+    x: 35.051086
+    y: 66.697876
     width: 87.44681
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9797,7 +9895,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 726503730}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 726503728}
   variables: []
   description: 
   stepPause: 0
@@ -16463,11 +16562,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: No, try again. This is not the keyboard.
+  storyText: No, try again. I don't think that's it
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c74ad2067b3e5784da8400f943950542, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -16490,8 +16589,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 175.60002
-    y: 155.4
+    x: 180.40002
+    y: 153.8
     width: 78
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -16543,11 +16642,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Bravo! Correct answer
+  storyText: Bravo! I understand
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 09e43dd22dd40414a8af01edf5e35124, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -16629,7 +16728,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 18d383d615597574299bc72549f42358, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -16693,7 +16792,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1194577127}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1194577125}
   variables: []
   description: 
   stepPause: 0
@@ -17693,11 +17793,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: No, try again. This is not the keyboard.
+  storyText: No, try again. I don't think that's it
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c74ad2067b3e5784da8400f943950542, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -17773,11 +17873,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Bravo! Correct answer
+  storyText: Bravo! I understand
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 09e43dd22dd40414a8af01edf5e35124, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -17800,8 +17900,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 235.6
-    y: 93
+    x: 236.40002
+    y: 94.6
     width: 72.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -17856,7 +17956,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 14dff461ab2d4894393ed59f23e3c850, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -17920,7 +18020,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1316481399}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1316481397}
   variables: []
   description: 
   stepPause: 0
@@ -20082,8 +20183,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 65.40001
-    y: 70.799995
+    x: 63.800003
+    y: 69.19999
     width: 114.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -20128,8 +20229,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1458575136}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1458575135}
@@ -23534,7 +23634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1316481400}
+  selectedFlowchart: {fileID: 1458575137}
 --- !u!4 &1683248815
 Transform:
   m_ObjectHideFlags: 1
@@ -24356,11 +24456,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: No, try again. This is not the keyboard.
+  storyText: No, try again. I don't think that's it
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: c74ad2067b3e5784da8400f943950542, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -24439,11 +24539,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Bravo! Correct answer
+  storyText: Bravo! I understand
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 09e43dd22dd40414a8af01edf5e35124, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -24466,8 +24566,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 235.6
-    y: 93
+    x: 238
+    y: 93.8
     width: 72.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -24522,7 +24622,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1831628743}
   portrait: {fileID: 21300000, guid: e0e84afaf02a98f429d9b8fa692c37af, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 495944d9eea8b774daf2d44c9b32d8e3, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -24545,7 +24645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 29.400017
+    x: 31.800018
     y: 77.99999
     width: 79.6
     height: 40
@@ -33956,8 +34056,8 @@ SceneRoots:
   - {fileID: 1483068070}
   - {fileID: 1086307683}
   - {fileID: 1870567934}
-  - {fileID: 1699579965}
   - {fileID: 801193031}
+  - {fileID: 1699579965}
   - {fileID: 1348818730}
   - {fileID: 2082172050}
   - {fileID: 2051602437}
@@ -33971,3 +34071,4 @@ SceneRoots:
   - {fileID: 881032545}
   - {fileID: 849554386}
   - {fileID: 1306233027}
+  - {fileID: 435409176}
