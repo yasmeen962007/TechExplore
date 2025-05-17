@@ -9,7 +9,7 @@ public class ui : MonoBehaviour
     public void StartGame()
 
     {
-        SceneManager.LoadScene("startvideo ui");
+        SceneManager.LoadScene("startvideo");
 
     }
 

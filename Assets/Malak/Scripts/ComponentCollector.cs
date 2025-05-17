@@ -3,12 +3,11 @@ using Fungus;
 
 public class ComponentCollector : MonoBehaviour
 {
-    public int totalItems = 7; // ??? ???????? ????????
+    public int totalItems = 7; 
     private int collectedCount = 0;
 
     public Flowchart flowchart;
-    public string blockNameToPlay = "FinishDialog"; // ???? ????? ??? ??? ??????
-
+    public string blockNameToPlay = "FinishDialog"; 
     public void CollectItem()
     {
         collectedCount++;
