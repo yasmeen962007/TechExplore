@@ -11721,7 +11721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 91.60002
+    x: 92.45109
     y: 235.40005
     width: 79.78723
     height: 40
@@ -11932,7 +11932,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &266213449
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11953,7 +11953,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &266213450
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11980,7 +11980,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &266213451
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12001,7 +12001,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &266213452
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -41899,8 +41899,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 92.47915
-    y: 236.27917
+    x: 91.60002
+    y: 238.91652
     width: 79.89011
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -42048,9 +42048,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 964614438}
+  - {fileID: 964614434}
   selectedCommands:
-  - {fileID: 964614443}
+  - {fileID: 964614442}
   variables:
   - {fileID: 964614428}
   - {fileID: 964614441}
@@ -62106,7 +62106,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -67421,7 +67421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 217.9831
+    x: 218.83414
     y: 169.86804
     width: 86.59574
     height: 40
@@ -67476,8 +67476,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 91.60002
-    y: 235.40005
+    x: 92.45109
+    y: 236.2511
     width: 79.78723
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -67654,9 +67654,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1585249801}
+  - {fileID: 1585249803}
   selectedCommands:
-  - {fileID: 1585249800}
+  - {fileID: 1585249814}
   variables:
   - {fileID: 1585249795}
   - {fileID: 1585249792}
@@ -85080,10 +85080,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1990245645}
+  - {fileID: 1990245659}
   selectedCommands:
-  - {fileID: 1990245671}
-  - {fileID: 1990245670}
+  - {fileID: 1990245668}
   variables:
   - {fileID: 1990245664}
   - {fileID: 1990245667}
@@ -85273,8 +85272,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 218.83418
-    y: 171.57016
+    x: 219.68523
+    y: 173.27231
     width: 86.59574
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -88116,7 +88115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757cb93fa7c55de4d957c1f560d94e55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 300
+  timeLimit: 420
   totalItems: 7
   magicPortal: {fileID: 463350451}
 --- !u!4 &2081276423

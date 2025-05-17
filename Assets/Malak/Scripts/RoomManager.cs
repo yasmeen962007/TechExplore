@@ -6,14 +6,20 @@ public class RoomManager : MonoBehaviour
     public Flowchart startFlowchart;
     public Flowchart winFlowchart;
     public Flowchart loseFlowchart;
-    public GameObject finalUI;      // UI بتاع المكسب
-    public GameObject gameOverUI;   // UI بتاع الخسارة
-    public GameObject playerObject; // اللاعب
+
+    public GameObject finalUI;       // UI بتاع المكسب
+    public GameObject gameOverUI;    // UI بتاع الخسارة
+    public GameObject playerObject;  // اللاعب
+
+    public Camera fallbackCamera;    // الكاميرا البديلة اللي هنشغلها وقت الخسارة
 
     void Start()
     {
         finalUI.SetActive(false);
         gameOverUI.SetActive(false);
+
+        if (fallbackCamera != null)
+            fallbackCamera.gameObject.SetActive(false); // نطفيها في الأول
 
         switch (GameManager.instance.CurrentState)
         {
@@ -28,7 +34,7 @@ public class RoomManager : MonoBehaviour
 
             case GameManager.GameState.Lose:
                 loseFlowchart.ExecuteBlock("LoseDialog");
-                // نحذف Invoke هنا ونعتمد على Fungus ينفذ HandleLose بعد انتهاء الدايلوج
+                // هنستدعي HandleLose من Fungus بعد انتهاء الدايلوج
                 break;
         }
     }
@@ -38,6 +44,9 @@ public class RoomManager : MonoBehaviour
     {
         if (playerObject != null)
             playerObject.SetActive(false);
+
+        if (fallbackCamera != null)
+            fallbackCamera.gameObject.SetActive(true); // نشغل الكاميرا البديلة
 
         if (gameOverUI != null)
             gameOverUI.SetActive(true); // تظهر شاشة الجيم أوفر
