@@ -8,11 +8,15 @@ public class Interactions : MonoBehaviour
     public Image collectedImage;
     public LabManager labManager;
 
+    public AudioClip collectSound;
+    private AudioSource audioSource;
+
     private bool isCollected = false;
 
     void Start()
     {
         collectedImage.gameObject.SetActive(false);
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     void OnMouseDown()
@@ -24,12 +28,13 @@ public class Interactions : MonoBehaviour
             fadedImage.gameObject.SetActive(false);
             collectedImage.gameObject.SetActive(true);
 
+            audioSource.PlayOneShot(collectSound);
             labManager.CollectItem();
         }
     }
+
     public void ShowCollectedImage()
     {
         collectedImage.gameObject.SetActive(true);
     }
-
 }

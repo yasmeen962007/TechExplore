@@ -38246,6 +38246,7 @@ MonoBehaviour:
   fadedImage: {fileID: 1400708969}
   collectedImage: {fileID: 1344987838}
   labManager: {fileID: 2081276422}
+  collectSound: {fileID: 8300000, guid: 3ed939846913c044aad3a5f27a8a4104, type: 3}
 --- !u!1001 &878416385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48053,6 +48054,7 @@ MonoBehaviour:
   fadedImage: {fileID: 1539489836}
   collectedImage: {fileID: 1021446399}
   labManager: {fileID: 2081276422}
+  collectSound: {fileID: 8300000, guid: 3ed939846913c044aad3a5f27a8a4104, type: 3}
 --- !u!4 &1114932465 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: e2bb8688208ec4855995dc3671b6c8a8,
@@ -51998,6 +52000,7 @@ MonoBehaviour:
   fadedImage: {fileID: 1922708282}
   collectedImage: {fileID: 139197638}
   labManager: {fileID: 2081276422}
+  collectSound: {fileID: 8300000, guid: 3ed939846913c044aad3a5f27a8a4104, type: 3}
 --- !u!1 &1195642339
 GameObject:
   m_ObjectHideFlags: 0
@@ -52421,6 +52424,7 @@ MonoBehaviour:
   fadedImage: {fileID: 990369596}
   collectedImage: {fileID: 462665317}
   labManager: {fileID: 2081276422}
+  collectSound: {fileID: 8300000, guid: 3ed939846913c044aad3a5f27a8a4104, type: 3}
 --- !u!1001 &1221177510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73920,6 +73924,7 @@ MonoBehaviour:
   fadedImage: {fileID: 1560311117}
   collectedImage: {fileID: 167621919}
   labManager: {fileID: 2081276422}
+  collectSound: {fileID: 8300000, guid: 3ed939846913c044aad3a5f27a8a4104, type: 3}
 --- !u!1001 &1748890701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77009,6 +77014,7 @@ MonoBehaviour:
   fadedImage: {fileID: 968059792}
   collectedImage: {fileID: 500158966}
   labManager: {fileID: 2081276422}
+  collectSound: {fileID: 8300000, guid: 3ed939846913c044aad3a5f27a8a4104, type: 3}
 --- !u!4 &1822699301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 6303ec70701ed4d31806e2ce8a7af08c,
@@ -87837,6 +87843,7 @@ MonoBehaviour:
   fadedImage: {fileID: 1642107774}
   collectedImage: {fileID: 1940341327}
   labManager: {fileID: 2081276422}
+  collectSound: {fileID: 8300000, guid: 3ed939846913c044aad3a5f27a8a4104, type: 3}
 --- !u!4 &2072104350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: ac93356612ce24c718977a61ed7246de,
